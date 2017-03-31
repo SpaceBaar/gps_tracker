@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sheela Infotech Tracking</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="default_upload_website">https://www.sheelainfotech.com/maps/updatelocation.php</string>
+
+    <string name="tracking_is_off">Tracking is Off</string>
+    <string name="tracking_is_on">Tracking is On</string>
+    <string name="user_needs_to_restart_tracking">Please restart tracking to change the time interval.</string>
+    <string name="textfields_empty_or_spaces">Please fill in both fields. User names cannot have a space.</string>
+    <string name="google_play_services_unavailable">Please go into Settings > Apps > All and enable Google Play Services.</string>
+    <string name="upload_frequency">Location updates in every:</string>
+    <string name="one_minute">1 minute</string>
+    <string name="five_minutes">5 minutes</string>
+    <string name="fifteen_minutes">15 minutes</string>
+
+</resources>
