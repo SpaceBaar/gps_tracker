@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- TODO Remove the following "exclude" elements to make them a part of the auto backup -->
+    <exclude
+        domain="database"
+        path="android_api" />
+    <!-- Exclude the shared preferences file that contains the GCM registrationId -->
+    <exclude
+        domain="sharedpref"
+        path="com.spacebaar.gpstracker.activity.gpstracker.prefs.xml" />
+    <exclude
+        domain="sharedpref"
+        path="AndroidHiveLogin.xml" />
+    <exclude
+        domain="sharedpref"
+        path="com.spacebaar.gpstracker.prefs.xml" />
+</full-backup-content>

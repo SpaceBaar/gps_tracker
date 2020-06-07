@@ -5,7 +5,7 @@
     android:background="@color/bg_login"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="10dp">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -13,14 +13,13 @@
         android:layout_gravity="center"
         android:orientation="vertical"
         android:paddingLeft="20dp"
-        android:paddingRight="20dp" >
+        android:paddingRight="20dp">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@mipmap/ic_launcher"
             android:layout_marginBottom="30dp"
-            />
+            android:src="@mipmap/ic_launcher" />
 
         <EditText
             android:id="@+id/email"
@@ -70,8 +69,8 @@
             android:text="@string/btn_link_to_register"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:visibility="gone"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:visibility="gone" />
     </LinearLayout>
 
 </LinearLayout>
